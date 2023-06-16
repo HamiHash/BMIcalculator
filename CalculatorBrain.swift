@@ -19,9 +19,9 @@ struct CalculatorBrain {
         if Double(bmiValue)! < 18.5 {
             bmi = BMI(bmi: bmiValue, advice: "Eat more pies!", color: UIColor.systemTeal )
         } else if Double(bmiValue)! > 25 {
-            bmi = BMI(bmi: bmiValue, advice: "Eat less pies!", color: UIColor.red )
+            bmi = BMI(bmi: bmiValue, advice: "Eat less pies!", color: UIColor.systemRed )
         } else {
-            bmi = BMI(bmi: bmiValue, advice: "Fit as a fiddle!", color: UIColor.green )
+            bmi = BMI(bmi: bmiValue, advice: "Fit as a fiddle!", color: UIColor.systemGreen )
         }
     }
     
